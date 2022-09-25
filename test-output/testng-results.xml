@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-25T18:29:31Z" name="UCSC Test Automation Demo" finished-at="2022-09-25T18:33:07Z" duration-ms="215650">
+    <groups>
+    </groups>
+    <test started-at="2022-09-25T18:29:31Z" name="UCSC Test Automation Demo Testcases" finished-at="2022-09-25T18:33:07Z" duration-ms="215650">
+      <class name="com.actitime.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.HomePageTest@d21a74c]" started-at="2022-09-25T18:29:31Z" name="seup" finished-at="2022-09-25T18:29:41Z" duration-ms="9954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="homePageLogoTest()[pri:1, instance:com.actitime.qa.testcases.HomePageTest@d21a74c]" started-at="2022-09-25T18:29:41Z" name="homePageLogoTest" finished-at="2022-09-25T18:29:45Z" duration-ms="3981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.HomePageTest@d21a74c]" started-at="2022-09-25T18:29:45Z" name="tearDown" finished-at="2022-09-25T18:29:45Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.HomePageTest@d21a74c]" started-at="2022-09-25T18:31:01Z" name="seup" finished-at="2022-09-25T18:31:11Z" duration-ms="10718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="homePageTaskLinkTest()[pri:2, instance:com.actitime.qa.testcases.HomePageTest@d21a74c]" started-at="2022-09-25T18:31:11Z" name="homePageTaskLinkTest" finished-at="2022-09-25T18:31:18Z" duration-ms="6823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTaskLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.HomePageTest@d21a74c]" started-at="2022-09-25T18:31:18Z" name="tearDown" finished-at="2022-09-25T18:31:18Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.qa.testcases.HomePageTest -->
+      <class name="com.actitime.qa.testcases.TimeTrackTest">
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.TimeTrackTest@2638011]" started-at="2022-09-25T18:30:44Z" name="seup" finished-at="2022-09-25T18:31:01Z" duration-ms="16674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="LogoTest()[pri:1, instance:com.actitime.qa.testcases.TimeTrackTest@2638011]" started-at="2022-09-25T18:31:01Z" name="LogoTest" finished-at="2022-09-25T18:31:01Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.TimeTrackTest@2638011]" started-at="2022-09-25T18:31:01Z" name="tearDown" finished-at="2022-09-25T18:31:01Z" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.TimeTrackTest@2638011]" started-at="2022-09-25T18:32:10Z" name="seup" finished-at="2022-09-25T18:32:26Z" duration-ms="15052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="clickOnApproveTimeTrack()[pri:2, instance:com.actitime.qa.testcases.TimeTrackTest@2638011]" started-at="2022-09-25T18:32:26Z" name="clickOnApproveTimeTrack" finished-at="2022-09-25T18:33:06Z" duration-ms="40892" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"*[@id="approveTTTable"]/tbody[2]/tr[2]/td[2]/span"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F18AKI1', ip: '192.168.8.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 99e6591e749d118f30132c7bc2213875
+*** Element info: {Using=xpath, value=*[@id="approveTTTable"]/tbody[2]/tr[2]/td[2]/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"*[@id="approveTTTable"]/tbody[2]/tr[2]/td[2]/span"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F18AKI1', ip: '192.168.8.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 99e6591e749d118f30132c7bc2213875
+*** Element info: {Using=xpath, value=*[@id="approveTTTable"]/tbody[2]/tr[2]/td[2]/span}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at jdk.proxy2/jdk.proxy2.$Proxy11.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at com.actitime.qa.pages.TimeTrack.clickOnApproveTimeTrack(TimeTrack.java:41)
+at com.actitime.qa.testcases.TimeTrackTest.clickOnApproveTimeTrack(TimeTrackTest.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnApproveTimeTrack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.TimeTrackTest@2638011]" started-at="2022-09-25T18:33:06Z" name="tearDown" finished-at="2022-09-25T18:33:07Z" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.qa.testcases.TimeTrackTest -->
+      <class name="com.actitime.qa.testcases.ReportPageTest">
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.ReportPageTest@2898ac89]" started-at="2022-09-25T18:29:54Z" name="seup" finished-at="2022-09-25T18:30:12Z" duration-ms="17202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="reportsPageLogoTest()[pri:1, instance:com.actitime.qa.testcases.ReportPageTest@2898ac89]" started-at="2022-09-25T18:30:12Z" name="reportsPageLogoTest" finished-at="2022-09-25T18:30:12Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsPageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.ReportPageTest@2898ac89]" started-at="2022-09-25T18:30:12Z" name="tearDown" finished-at="2022-09-25T18:30:12Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.ReportPageTest@2898ac89]" started-at="2022-09-25T18:31:37Z" name="seup" finished-at="2022-09-25T18:31:53Z" duration-ms="16516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="reportsPagenewReportTest()[pri:2, instance:com.actitime.qa.testcases.ReportPageTest@2898ac89]" started-at="2022-09-25T18:31:53Z" name="reportsPagenewReportTest" finished-at="2022-09-25T18:31:54Z" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsPagenewReportTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.ReportPageTest@2898ac89]" started-at="2022-09-25T18:31:54Z" name="tearDown" finished-at="2022-09-25T18:31:54Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.qa.testcases.ReportPageTest -->
+      <class name="com.actitime.qa.testcases.UsersPageTest">
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@683dbc2c]" started-at="2022-09-25T18:30:12Z" name="seup" finished-at="2022-09-25T18:30:28Z" duration-ms="15808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="usersPageLogoTest()[pri:1, instance:com.actitime.qa.testcases.UsersPageTest@683dbc2c]" started-at="2022-09-25T18:30:28Z" name="usersPageLogoTest" finished-at="2022-09-25T18:30:28Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersPageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@683dbc2c]" started-at="2022-09-25T18:30:28Z" name="tearDown" finished-at="2022-09-25T18:30:28Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@683dbc2c]" started-at="2022-09-25T18:31:54Z" name="seup" finished-at="2022-09-25T18:32:10Z" duration-ms="15935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="reportsPageNewReportTest()[pri:2, instance:com.actitime.qa.testcases.UsersPageTest@683dbc2c]" started-at="2022-09-25T18:32:10Z" name="reportsPageNewReportTest" finished-at="2022-09-25T18:32:10Z" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsPageNewReportTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@683dbc2c]" started-at="2022-09-25T18:32:10Z" name="tearDown" finished-at="2022-09-25T18:32:10Z" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.qa.testcases.UsersPageTest -->
+      <class name="com.actitime.qa.testcases.LogonPageTest">
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@6e509ffa]" started-at="2022-09-25T18:29:45Z" name="seup" finished-at="2022-09-25T18:29:54Z" duration-ms="9221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="loginPageLogoTest()[pri:1, instance:com.actitime.qa.testcases.LogonPageTest@6e509ffa]" started-at="2022-09-25T18:29:54Z" name="loginPageLogoTest" finished-at="2022-09-25T18:29:54Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@6e509ffa]" started-at="2022-09-25T18:29:54Z" name="tearDown" finished-at="2022-09-25T18:29:54Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@6e509ffa]" started-at="2022-09-25T18:31:19Z" name="seup" finished-at="2022-09-25T18:31:28Z" duration-ms="8975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.actitime.qa.testcases.LogonPageTest@6e509ffa]" started-at="2022-09-25T18:31:28Z" name="LoginTest" data-provider="getactiTimeTestData" finished-at="2022-09-25T18:31:28Z" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@6e509ffa]" started-at="2022-09-25T18:31:28Z" name="tearDown" finished-at="2022-09-25T18:31:28Z" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@6e509ffa]" started-at="2022-09-25T18:31:28Z" name="seup" finished-at="2022-09-25T18:31:37Z" duration-ms="8383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.actitime.qa.testcases.LogonPageTest@6e509ffa]" started-at="2022-09-25T18:31:37Z" name="LoginTest" data-provider="getactiTimeTestData" finished-at="2022-09-25T18:31:37Z" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@6e509ffa]" started-at="2022-09-25T18:31:37Z" name="tearDown" finished-at="2022-09-25T18:31:37Z" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.qa.testcases.LogonPageTest -->
+      <class name="com.actitime.qa.testcases.TasksPageTest">
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.TasksPageTest@68267da0]" started-at="2022-09-25T18:30:28Z" name="seup" finished-at="2022-09-25T18:30:44Z" duration-ms="15842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="tasksPageLogoTest()[pri:1, instance:com.actitime.qa.testcases.TasksPageTest@68267da0]" started-at="2022-09-25T18:30:44Z" name="tasksPageLogoTest" finished-at="2022-09-25T18:30:44Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tasksPageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.TasksPageTest@68267da0]" started-at="2022-09-25T18:30:44Z" name="tearDown" finished-at="2022-09-25T18:30:44Z" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.qa.testcases.TasksPageTest -->
+    </test> <!-- UCSC Test Automation Demo Testcases -->
+  </suite> <!-- UCSC Test Automation Demo -->
+</testng-results>
